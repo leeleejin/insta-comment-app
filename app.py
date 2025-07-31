@@ -30,7 +30,8 @@ if st.button("이미지 만들기") and uploaded_image and nickname and meta and
 
     # ===== 간격 설정 =====
     padding_x = 20
-    padding_y = 18
+    padding_y_top = 18
+    padding_y_bottom = 10
     profile_size = 50
     profile_to_text_gap = 14     # 프로필 ↔ 텍스트 X 간격
     nick_to_comment_gap = 8      # 닉네임 ↔ 댓글 Y 간격
